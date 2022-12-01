@@ -5,7 +5,7 @@ function Navigation(props) {
 
     return (
         <nav className="navbar">
-            <ul className="nav nav-tabs">
+            <ul className="nav justify-content-center">
                 <li className="nav-item">
                     <a href="#about"
                         onClick={() => handleTabChange('About')}

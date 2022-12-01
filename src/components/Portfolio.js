@@ -1,10 +1,10 @@
 import React from 'react';
-import ANightIn from '../assets/A-Night-In.png'
-import BackStock from '../assets/BackStock.png'
-import LandingPage from '../assets/Landing-Page.png'
-import NotesExpress from '../assets/Notes-Express.png'
-import PasswordGenerator from '../assets/Password-Generator.png'
-import WeatherDashboard from '../assets/Weather-Dashboard.png'
+import ANightIn from '../assets/images/A-Night-In.png'
+import BackStock from '../assets/images/BackStock.png'
+import LandingPage from '../assets/images/Landing-Page.png'
+import NotesExpress from '../assets/images/Notes-Express.png'
+import PasswordGenerator from '../assets/images/Password-Generator.png'
+import WeatherDashboard from '../assets/images/Weather-Dashboard.png'
 
 function Portfolio() {
     return (
