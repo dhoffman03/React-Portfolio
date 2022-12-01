@@ -1,14 +1,94 @@
-import React from "react";
+import React from 'react';
+import ANightIn from '../assets/A-Night-In.png'
+import BackStock from '../assets/BackStock.png'
+import LandingPage from '../assets/Landing-Page.png'
+import NotesExpress from '../assets/Notes-Express.png'
+import PasswordGenerator from '../assets/Password-Generator.png'
+import WeatherDashboard from '../assets/Weather-Dashboard.png'
 
 function Portfolio() {
-   
+    return (
+        <div className='row row-cols-1 row-cols-md-3 g-4'>
+            <div className='col'>
+                <div className='card h-100'>
+                    <a href='https://dhoffman03.github.io/A-Night-In/' target='_blank' rel='noreferrer'>
+                        <img src={ANightIn} className='card-img-top' alt='A-Night-In application' />
+                    </a>
+                    <div className='card-body'>
+                        <h5 className='card-title'>A Night In</h5>
+                        <p className='card-text'>decription here</p>
+                        <a href='https://github.com/dhoffman03/A-Night-In.git' target='_blank' rel='noreferrer'>Github Repo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className='col'>
+                <div className='card h-100'>
+                    <a href='https://backstock-2022.herokuapp.com/' target='_blank' rel='noreferrer'>
+                        <img src={BackStock} className='card-img-top' alt='BackStock application' />
+                    </a>
+                    <div className='card-body'>
+                        <h5 className='card-title'>BackStock</h5>
+                        <p className='card-text'>decription here</p>
+                        <a href='https://github.com/PDKetchum/project-2-BackStock.git' target='_blank' rel='noreferrer'>Github Repo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className='col'>
+                <div className='card h-100'>
+                    <a href='https://dhoffman03.github.io/mini-project-1/' target='_blank' rel='noreferrer'>
+                        <img src={LandingPage} className='card-img-top' alt='Landing Page application' />
+                    </a>
+                    <div className='card-body'>
+                        <h5 className='card-title'>Landing Page</h5>
+                        <p className='card-text'>decription here</p>
+                        <a href='https://github.com/dhoffman03/mini-project-1.git' target='_blank' rel='noreferrer'>Github Repo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className='col'>
+                <div className='card h-100'>
+                    <a href='https://dhoffman03.github.io/Password-Generator/' target='_blank' rel='noreferrer'>
+                        <img src={PasswordGenerator} className='card-img-top' alt='Password Generator application' />
+                    </a>
+                    <div className='card-body'>
+                        <h5 className='card-title'>Password Generator</h5>
+                        <p className='card-text'>decription here</p>
+                        <a href='https://github.com/dhoffman03/Password-Generator.git' target='_blank' rel='noreferrer'>Github Repo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className='col'>
+                <div className='card h-100'>
+                    <a href='https://notes-express-11.herokuapp.com/' target='_blank' rel='noreferrer'>
+                        <img src={NotesExpress} className='card-img-top' alt='Note taking application' />
+                    </a>
+                    <div className='card-body'>
+                        <h5 className='card-title'>Notes Taker</h5>
+                        <p className='card-text'>decription here</p>
+                        <a href='https://github.com/dhoffman03/Note-Taker.git' target='_blank' rel='noreferrer'>Github Repo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div className='col'>
+                <div className='card h-100'>
+                    <a href='https://dhoffman03.github.io/Weather-Dashboard/' target='_blank' rel='noreferrer'>
+                        <img src={WeatherDashboard} className='card-img-top' alt='Weather Dashboard application' />
+                    </a>
+                    <div className='card-body'>
+                        <h5 className='card-title'>Weather Dashboard</h5>
+                        <p className='card-text'>decription here</p>
+                        <a href='https://github.com/dhoffman03/Weather-Dashboard.git' target='_blank' rel='noreferrer'>Github Repo</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    )
 }
 
 export default Portfolio;
-
-
-// Requirements
-    // 6 applications
-    //  titled images
-    // links to deployed page and repo
-    
