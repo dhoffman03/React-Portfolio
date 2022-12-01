@@ -6,7 +6,7 @@ function Header(props) {
 
     return (
         <header className='text-center'>
-            <div >
+            <div className='pt-3'>
                 <h1>Dymond Hoffman</h1>
             </div>
             <div>

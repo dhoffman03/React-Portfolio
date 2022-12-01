@@ -14,17 +14,37 @@ html {
 body {
     background-color: var(--beige);
     color: var(--cream);
+    font-family: 'Andale Mono', Courier, monospace;
     font-size: 1.8rem;
     line-height: 1.5
 }
 
 header {
-    /* display: flex; */
-    /* Makes space between h1 and nav */
-    /* justify-content: space-between; */
     border-bottom: 0.3rem solid var(--cream);
     padding: 1rem 0rem;
     margin-bottom: 1rem;
+}
+
+header h1 {
+    color: var(--light);
+    font-size: 3.5rem;;
+}
+
+nav {
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: var(--beige) 
+}
+
+.nav-link:hover {
+    color: var(--mint) !important
+
+}
+
+.nav-link:focus{
+    color: var(--mint) !important
 }
 
 header,
@@ -44,6 +64,9 @@ footer a {
     color: var(--light)
 }
 
+footer a:hover {
+    color: var(--mint)
+}
 /* Removes underline from link */
 li a {
     text-decoration: none;

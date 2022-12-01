@@ -11,11 +11,11 @@ function Footer() {
                     <strong>Designed by Dymond Hoffman</strong>
                     <strong className='ps-3'>|</strong>
 
-                    <a href='https://github.com/dhoffman03' className='px-3'>< FiGithub /></a>
+                    <a href='https://github.com/dhoffman03' className='px-3' target='_blank' rel='noreferrer'>< FiGithub /></a>
 
-                    <a href='https://www.linkedin.com/in/dymondhoffman/' className='px-3'>< FiLinkedin /></a>
+                    <a href='https://www.linkedin.com/in/dymondhoffman/' className='px-3' target='_blank' rel='noreferrer'>< FiLinkedin /></a>
 
-                    <a href='https://stackoverflow.com/users/19372576/dymond-h' className='px-3'>< DiStackoverflow /></a>
+                    <a href='https://stackoverflow.com/users/19372576/dymond-h' className='px-3' target='_blank' rel='noreferrer'>< DiStackoverflow /></a>
 
                 </p>               
         </footer>
