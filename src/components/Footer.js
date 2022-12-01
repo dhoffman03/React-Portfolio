@@ -1,7 +1,7 @@
-import React from "react";
-import { FiLinkedin } from "react-icons/fi";
-import { FiGithub } from "react-icons/fi";
-import { DiStackoverflow } from "react-icons/di";
+import React from 'react';
+import { FiLinkedin } from 'react-icons/fi';
+import { FiGithub } from 'react-icons/fi';
+import { DiStackoverflow } from 'react-icons/di';
 
 
 function Footer() {
@@ -10,15 +10,15 @@ function Footer() {
             <p>Designed by Dymond Hoffman</p>
             <ul>
                 <li>
-                    <a href="https://github.com/dhoffman03">< FiGithub /></a>
+                    <a href='https://github.com/dhoffman03'>< FiGithub /></a>
                 </li>
 
                 <li>
-                    <a href="https://www.linkedin.com/in/dymondhoffman/">< FiLinkedin /></a>
+                    <a href='https://www.linkedin.com/in/dymondhoffman/'>< FiLinkedin /></a>
                 </li>
 
                 <li>
-                    <a href="https://stackoverflow.com/users/19372576/dymond-h">< DiStackoverflow /></a>
+                    <a href='https://stackoverflow.com/users/19372576/dymond-h'>< DiStackoverflow /></a>
                 </li>
             </ul>
         </footer>
