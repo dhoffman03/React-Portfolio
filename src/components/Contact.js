@@ -43,9 +43,9 @@ function Contact() {
 
     return (
         <div>
-            <h2>Contact Me!</h2>
-            <form className='contact-form'>
-                <label className='label' for='name'>Name</label>
+            <h2 className='title text-center'>Contact Me!</h2>
+            <form>
+                <label for='name'>Name</label>
                 <input
                     value={firstName}
                     name='firstName'
@@ -53,7 +53,7 @@ function Contact() {
                     type='text'
                     placeholder='Name'
                 />
-                <label className='label' for='email'>Email</label>
+                <label for='email'>Email</label>
                 <input
                     value={email}
                     name='email'
@@ -61,8 +61,9 @@ function Contact() {
                     type='email'
                     placeholder='Email'
                 />
-                <label className='label' for='message'>Message</label>
+                <label for='message'>Message</label>
                 <input
+                    className='message'
                     value={message}
                     name='message'
                     onChange={handleInputChange}

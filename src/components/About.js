@@ -4,7 +4,7 @@ import avatar from '../assets/images/avatar.png'
 function About() {
     return (
         <section>
-            <h2 className='about text-center'>About Me</h2>
+            <h2 className='title text-center'>About Me</h2>
             <div className='d-flex align-items-center justify-content-evenly'>
                 <div className='about-profile text-center'>
                     <img src={avatar} alt='Dymond Hoffman' />
