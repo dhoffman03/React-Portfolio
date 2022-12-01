@@ -7,20 +7,17 @@ import { DiStackoverflow } from 'react-icons/di';
 function Footer() {
     return (
         <footer>
-            <p>Designed by Dymond Hoffman</p>
-            <ul>
-                <li>
-                    <a href='https://github.com/dhoffman03'>< FiGithub /></a>
-                </li>
+                 <p className='text-center pt-5 '>
+                    <strong>Designed by Dymond Hoffman</strong>
+                    <strong className='ps-3'>|</strong>
 
-                <li>
-                    <a href='https://www.linkedin.com/in/dymondhoffman/'>< FiLinkedin /></a>
-                </li>
+                    <a href='https://github.com/dhoffman03' className='px-3'>< FiGithub /></a>
 
-                <li>
-                    <a href='https://stackoverflow.com/users/19372576/dymond-h'>< DiStackoverflow /></a>
-                </li>
-            </ul>
+                    <a href='https://www.linkedin.com/in/dymondhoffman/' className='px-3'>< FiLinkedin /></a>
+
+                    <a href='https://stackoverflow.com/users/19372576/dymond-h' className='px-3'>< DiStackoverflow /></a>
+
+                </p>               
         </footer>
     )
 }

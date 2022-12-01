@@ -4,8 +4,8 @@ function Navigation(props) {
     const { currentTab, handleTabChange } = props;
 
     return (
-        <nav className='navbar'>
-            <ul className='nav justify-content-center'>
+        <nav className='navbar justify-content-center'>
+            <ul className='nav'>
                 <li className='nav-item'>
                     <a href='#about'
                         onClick={() => handleTabChange('About')}

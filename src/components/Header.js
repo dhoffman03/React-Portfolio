@@ -5,8 +5,8 @@ function Header(props) {
     const { currentTab, handleTabChange } = props;
 
     return (
-        <header>
-            <div>
+        <header className='text-center'>
+            <div >
                 <h1>Dymond Hoffman</h1>
             </div>
             <div>
