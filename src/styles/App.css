@@ -27,23 +27,23 @@ header {
 
 header h1 {
     color: var(--light);
-    font-size: 3.5rem;;
+    font-size: 3.5rem;
+    ;
 }
 
 nav {
     font-size: 2rem;
 }
 
-.nav-link{
-    color: var(--beige) 
+.nav-link {
+    color: var(--beige)
 }
 
 .nav-link:hover {
     color: var(--mint) !important
-
 }
 
-.nav-link:focus{
+.nav-link:focus {
     color: var(--mint) !important
 }
 
@@ -54,6 +54,42 @@ footer {
     min-height: 15vh;
 
 }
+
+main {
+    margin: 1.5rem;
+    min-height: 70vh;
+}
+
+.about {
+    background-color: #ffe8d686;
+    border: 0.5rem double var(--latte);
+    border-radius: 2rem;
+    color: var(--latte);
+    font-size: 2.5rem;
+    margin-bottom: 7rem;
+    margin-top: 3rem; 
+    padding: 1rem;
+    width: var(--full);
+}
+
+.about-profile img {
+    border: .5rem double var(--latte);
+    border-radius: 2rem;
+    width: 30rem;
+    height: 35rem;
+}
+
+.bio {
+    background-color: #ffe8d686;
+    border: .5rem double var(--latte);
+    border-radius: 2rem;
+    color: var(--latte);
+    font-size: 2rem;
+    height: 35rem;
+    padding: 6.5rem 5rem;
+    width: 50%;
+}
+
 
 footer {
     border-top: 0.3rem solid var(--cream);
@@ -67,12 +103,8 @@ footer a {
 footer a:hover {
     color: var(--mint)
 }
+
 /* Removes underline from link */
 li a {
     text-decoration: none;
-}
-
-main {
-    margin: 1.5rem;
-    min-height: 70vh;
 }
