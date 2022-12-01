@@ -5,24 +5,29 @@ import { Helmet } from 'react-helmet';
 // Import components
 import Header from './components/Header';
 import About from './components/About';
-import Project from './components/Project';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 
 function App() {
-  const [currentTab, setCurrentTab] = useState("about")
+  const [currentTab, setCurrentTab] = useState('About')
   // // Check the value of 'currentTab' and return corresponding component
   const renderTab = () => {
-    switch (currentTab) {
-      case "About": return < About />;
-      case "Project": return < Project />;
-      case "Contact": return < Contact />;
-      case "Resume": return < Resume />;
-      default: return null;
+    if (currentTab === 'About') {
+      return <About />
     }
-  };
+    if (currentTab === 'Portfolio') {
+      return <Portfolio />
+    }
+    if (currentTab === 'Contact') {
+      return <Contact />
+    }
+    return <Resume />
+  }
+
+  const handleTabChange = (tab) => setCurrentTab(tab);
 
   return (
     <div className='app'>
@@ -30,14 +35,14 @@ function App() {
       <Helmet>
         <title> Dymond Hoffman | {currentTab} </title>
       </Helmet>
-      <Header>
+      <Header
         currentTab={currentTab}
-        setCurrentTab={setCurrentTab}
-      </Header>
+        handleTabChange={handleTabChange}
+      />
       <main>
         {renderTab()}
       </main>
-      < Footer />
+      <Footer />
     </div>
   );
 }

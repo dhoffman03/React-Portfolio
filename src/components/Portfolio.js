@@ -1,6 +1,10 @@
-function Project() {}
+import React from "react";
 
-export default Project;
+function Portfolio() {
+   
+}
+
+export default Portfolio;
 
 
 // Requirements

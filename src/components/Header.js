@@ -2,7 +2,7 @@ import React from "react";
 import Navigation from "./Navigation";
 
 function Header(props) {
-    const { currentTab, setCurrentTab } = props;
+    const { currentTab, handleTabChange } = props;
 
     return (
         <header>
@@ -12,7 +12,7 @@ function Header(props) {
             <div>
                 <Navigation
                     currentTab={currentTab}
-                    setCurrentTab={setCurrentTab}
+                    handleTabChange={handleTabChange}
                 ></Navigation>
             </div>
         </header>
