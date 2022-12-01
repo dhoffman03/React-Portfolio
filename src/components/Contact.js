@@ -41,13 +41,45 @@ function Contact() {
         setMessage('')
     }
 
+    return (
+        <div>
+            <h2>Contact Me!</h2>
+            <form className='contact-form'>
+                <label className='label' for='name'>Name</label>
+                <input
+                    value={firstName}
+                    name='firstName'
+                    onChange={handleInputChange}
+                    type='text'
+                    placeholder='Name'
+                />
+                <label className='label' for='email'>Email</label>
+                <input
+                    value={email}
+                    name='email'
+                    onChange={handleInputChange}
+                    type='email'
+                    placeholder='Email'
+                />
+                <label className='label' for='message'>Message</label>
+                <input
+                    value={message}
+                    name='message'
+                    onChange={handleInputChange}
+                    type='text'
+                    placeholder='Message'
+                />
+                <button type='button' onClick={handleFormSubmit}>
+                    SUBMIT
+                </button>
+                {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}
+            </form>
+        </div>
+    )
 }
 
 export default Contact;
-
-// Requirements
-    // name
-    // email
-    // message
-    // notification that field is required
-    // validate email adress
