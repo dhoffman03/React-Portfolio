@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 
 function App() {
   const [currentTab, setCurrentTab] = useState("about")
-  // Check the value of 'currentTab' and return corresponding component
+  // // Check the value of 'currentTab' and return corresponding component
   const renderTab = () => {
     switch (currentTab) {
       case "About": return < About />;
@@ -32,7 +32,7 @@ function App() {
       </Helmet>
       <Header>
         currentTab={currentTab}
-        handleChange={setCurrentTab}
+        setCurrentTab={setCurrentTab}
       </Header>
       <main>
         {renderTab()}
