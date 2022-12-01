@@ -1,6 +1,7 @@
 // Import dependencies
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
+import './styles/App.css'
 
 // Import components
 import Header from './components/Header';

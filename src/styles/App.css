@@ -1,15 +1,54 @@
 :root {
-    
+    --latte: #cb997eff;
+    --beige: #ddbea9ff;
+    --cream: #ffe8d6;
+    --light: #fff1e7ff;
+    --mint: #a9efe0;
 }
 
-* {
-
+html {
+    font-size: 62.5%;
 }
 
 body {
-
+    background-color: var(--beige);
+    color: var(--cream);
+    font-size: 1.8rem;
+    line-height: 1.5
 }
 
-.app {
-    
+header {
+    display: flex;
+    /* Makes space between h1 and nav */
+    justify-content: space-between;
+    border-bottom: 0.5rem solid var(--cream);
+    height: 10rem;
+    padding: 1rem 0rem;
+    margin-bottom: 1rem;
+}
+
+header,
+footer {
+    background-color: var(--latte);
+    width: var(--full);
+}
+
+footer {
+    border-top: 0.5rem solid var(--beige);
+    height: 8rem;
+    /* Centers text vertically within footer */
+    line-height: 5.5rem;
+    padding: 1rem;
+    /* Centers text horizontally*/
+    text-align: center;
+}
+
+/* Makes footer icons horizontal */
+ul li {
+    display: inline-block;
+}
+
+/* Removes underline from link */
+li a {
+    text-decoration: none;
 }
