@@ -5,7 +5,7 @@ function About() {
     return (
         <section>
             <h2 className='title text-center'>About Me</h2>
-            <div className='d-flex align-items-center justify-content-evenly'>
+            <div className='d-flex align-items-center justify-content-evenly about'>
                 <div className='about-profile text-center'>
                     <img src={avatar} alt='Dymond Hoffman' />
                 </div>

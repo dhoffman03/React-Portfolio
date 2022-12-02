@@ -31,7 +31,7 @@ function App() {
   const handleTabChange = (tab) => setCurrentTab(tab);
 
   return (
-    <div className='app'>
+    <div>
       {/* Set title of page */}
       <Helmet>
         <title> Dymond Hoffman | {currentTab} </title>

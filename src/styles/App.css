@@ -101,11 +101,11 @@ a {
     background-color: var(--cream);
 }
 
-.project a img{
+.project a img {
     border-bottom: 0.3rem solid var(--latte);
 }
 
-.details h5{
+.details h5 {
     font-size: 2.5rem;
     color: var(--latte);
     padding-bottom: 0.5rem;
@@ -229,4 +229,98 @@ footer a {
 
 footer a:hover {
     color: var(--mint)
+}
+
+/* Responsive Design */
+
+@media (max-width: 992px) {
+    body {
+        font-size: 1.7rem;
+        ;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .about-profile img {
+        width: 25rem;
+        height: 30rem;
+        margin-bottom: 3rem;
+    }
+
+    .bio {
+        width: 75%;
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .project {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1.7rem;
+        ;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .about-profile img {
+        width: 25rem;
+        height: 30rem;
+        margin-bottom: 3rem;
+    }
+
+    .bio {
+        width: 90%;
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .project {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1.6rem;
+        ;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .about-profile img {
+        width: 25rem;
+        height: 30rem;
+        margin-bottom: 3rem;
+    }
+
+    .bio {
+        width: 90%;
+        height: 45rem;
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .project {
+        flex-wrap: wrap;
+    }
+
+    .details h5 {
+        padding-top: 2rem;
+    }
 }
