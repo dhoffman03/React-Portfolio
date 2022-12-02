@@ -96,6 +96,31 @@ a {
     text-decoration: none;
 }
 
+.project {
+    border: 0.5rem double var(--latte);
+    background-color: var(--cream);
+}
+
+.project a img{
+    border-bottom: 0.3rem solid var(--latte);
+}
+
+.details h5{
+    font-size: 2.5rem;
+    color: var(--latte);
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid var(--latte);
+}
+
+.details a {
+    color: var(--latte);
+    padding-top: 0.5rem;
+}
+
+.details a:hover {
+    color: var(--mint);
+}
+
 /* Contact */
 form {
     margin: 3rem auto;
@@ -153,7 +178,7 @@ form button:hover {
 }
 
 /* Resume */
-.card {
+.resume {
     background-color: var(--beige) !important;
     border-color: var(--beige) !important;
 }
@@ -180,7 +205,6 @@ form button:hover {
 }
 
 .download a {
-
     border: .2rem solid var(--latte);
     background-color: var(--cream);
     color: var(--latte);
@@ -192,7 +216,6 @@ form button:hover {
     background-color: var(--mint);
     color: rgb(33, 129, 80);
 }
-
 
 /* Footer */
 footer {
