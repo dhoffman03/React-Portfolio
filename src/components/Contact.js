@@ -73,12 +73,12 @@ function Contact() {
                 <button type='button' onClick={handleFormSubmit}>
                     SUBMIT
                 </button>
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )}
             </form>
+            {errorMessage && (
+                <div>
+                    <p className="error-text">{errorMessage}</p>
+                </div>
+            )}
         </div>
     )
 }

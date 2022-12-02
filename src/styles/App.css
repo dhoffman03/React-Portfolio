@@ -5,6 +5,7 @@
     --light: #fff1e7ff;
     --mint: #a9efe0;
     --sheer: #ffe8d686;
+    --leaf: rgb(33, 129, 80);
     --full: 100%;
 }
 
@@ -99,10 +100,25 @@ a {
 .project {
     border: 0.5rem double var(--latte);
     background-color: var(--cream);
+    filter: opacity(70%);
+
 }
+
 
 .project a img {
     border-bottom: 0.3rem solid var(--latte);
+}
+
+.project:hover {
+    filter: opacity(100%);
+}
+
+.project:hover .details a{
+    color: var(--leaf);
+}
+
+.project:hover .details h5{
+    color: var(--leaf);
 }
 
 .details h5 {
@@ -115,10 +131,6 @@ a {
 .details a {
     color: var(--latte);
     padding-top: 0.5rem;
-}
-
-.details a:hover {
-    color: var(--mint);
 }
 
 /* Contact */
@@ -159,7 +171,7 @@ form input {
 
 form button {
     height: 3.5rem;
-    width: 20rem;
+    width: 30rem;
     margin-top: 1rem;
     border: .2rem solid var(--latte);
     background-color: var(--cream);
@@ -168,13 +180,14 @@ form button {
 }
 
 form button:hover {
-    border: .2rem solid rgb(33, 129, 80);
+    border: .2rem solid var(--leaf);
     background-color: var(--mint);
-    color: rgb(33, 129, 80);
+    color: var(--leaf);
 }
 
 .error-text {
-    color: rgb(33, 129, 80);
+    color: var(--leaf);
+    text-align: center;
 }
 
 /* Resume */
@@ -212,9 +225,9 @@ form button:hover {
 }
 
 .download a:hover {
-    border: .2rem solid rgb(33, 129, 80);
+    border: .2rem solid var(--leaf);
     background-color: var(--mint);
-    color: rgb(33, 129, 80);
+    color: var(--leaf);
 }
 
 /* Footer */
@@ -241,6 +254,10 @@ footer a:hover {
 
     form {
         width: 80%;
+    }
+
+    form button {
+        width: 20rem;
     }
 
     .about-profile img {
@@ -272,6 +289,10 @@ footer a:hover {
         width: 90%;
     }
 
+    form button {
+        width: 20rem;
+    }
+
     .about-profile img {
         width: 25rem;
         height: 30rem;
@@ -299,6 +320,10 @@ footer a:hover {
 
     form {
         width: 80%;
+    }
+
+    form button {
+        width: 20rem;
     }
 
     .about-profile img {

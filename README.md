@@ -15,15 +15,17 @@ The 'About Me'' section includes a recent photo of myself along with a few fun f
 
 ## Application
 
-![image of deployed webpage]()
-![image of deployed webpage-992px]()
-![image of deployed webpage-768px]()
+![image of About page](./src/assets/images/about.png)
+![image of Portfolio page](./src/assets/images/portfolio.png)
+![image of Contact page](./src/assets/images/contact.png)
+![image of Resume page](./src/assets/images/resume.png)
 
-The linked deployed website was deployed using GitHub pages.
+
+This applicatio was deployed using GitHub pages.
 
 The application can be viewed with the below links:
 
-* [Deployed website]()
+* [Deployed website](https://dhoffman03.github.io/React-Portfolio/)
 
 * [Code repository](https://github.com/dhoffman03/React-Portfolio.git)
 
@@ -44,5 +46,7 @@ This project was completed through the University of Minesota Coding Bootcamp
 * [React Icons](https://react-icons.github.io/react-icons/)
 
 * [Cutomize Title in React](https://betterprogramming.pub/how-to-customize-the-title-of-any-page-in-react-45ef14d2a695)
+
+* [CSS filter](https://css-tricks.com/almanac/properties/f/filter/)
 
 
