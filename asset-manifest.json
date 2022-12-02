@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.3b923bbc.css",
+    "main.js": "/React-Portfolio/static/js/main.c683b90c.js",
+    "static/media/Dymond_Hoffman_Resume.pdf": "/React-Portfolio/static/media/Dymond_Hoffman_Resume.b348f2603cd9651b2d79.pdf",
+    "static/media/A-Night-In.png": "/React-Portfolio/static/media/A-Night-In.c76017b9ad2f59ae1c04.png",
+    "static/media/avatar.png": "/React-Portfolio/static/media/avatar.bda522f97de1402246c9.png",
+    "static/media/Weather-Dashboard.png": "/React-Portfolio/static/media/Weather-Dashboard.231fe7aaf70f5a650b3b.png",
+    "static/media/Landing-Page.png": "/React-Portfolio/static/media/Landing-Page.b8ae73ca9bbbea5ae337.png",
+    "static/media/Password-Generator.png": "/React-Portfolio/static/media/Password-Generator.3077022d14be643d7af7.png",
+    "static/media/BackStock.png": "/React-Portfolio/static/media/BackStock.5ca621feff078ffe0477.png",
+    "static/media/Notes-Express.png": "/React-Portfolio/static/media/Notes-Express.f1550ba42a60ad085d38.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.3b923bbc.css.map": "/React-Portfolio/static/css/main.3b923bbc.css.map",
+    "main.c683b90c.js.map": "/React-Portfolio/static/js/main.c683b90c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b923bbc.css",
+    "static/js/main.c683b90c.js"
+  ]
+}
