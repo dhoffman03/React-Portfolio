@@ -1,6 +1,7 @@
 import React from 'react';
 import ANightIn from '../assets/images/A-Night-In.png'
 import BackStock from '../assets/images/BackStock.png'
+import CodeMovie from '../assets/images/codemovie.png'
 import LandingPage from '../assets/images/Landing-Page.png'
 import NotesExpress from '../assets/images/Notes-Express.png'
 import PasswordGenerator from '../assets/images/Password-Generator.png'
@@ -30,6 +31,18 @@ function Portfolio() {
                     <div className='card-body details text-center'>
                         <h5 className='card-title'>BackStock</h5>
                         <a href='https://github.com/PDKetchum/project-2-BackStock.git' target='_blank' rel='noreferrer'>Github Repo< FiGithub /></a>
+                    </div>
+                </div>
+            </div>
+
+            <div className='col'>
+                <div className='card h-100 project'>
+                    <a href='https://codemovie.herokuapp.com/' target='_blank' rel='noreferrer'>
+                        <img src={CodeMovie} className='card-img-top' alt='Note taking application' />
+                    </a>
+                    <div className='card-body details text-center'>
+                        <h5 className='card-title'>CodeMovie!</h5>
+                        <a href='https://github.com/AMore080/ecommerce.git' target='_blank' rel='noreferrer'>Github Repo< FiGithub /></a>
                     </div>
                 </div>
             </div>
